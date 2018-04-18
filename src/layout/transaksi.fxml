@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AccessController">
+    <children>
+        <Label fx:id="title" layoutX="25.0" layoutY="23.0" prefHeight="30.0" prefWidth="350.0">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <TextField fx:id="keterangan" layoutX="25.0" layoutY="67.0" prefHeight="30.0" prefWidth="350.0" promptText="Keterangan" />
+        <TextField fx:id="total" layoutX="25.0" layoutY="165.0" prefHeight="30.0" prefWidth="350.0" promptText="Total" />
+      <HBox fx:id="hBox" layoutX="23.0" layoutY="210.0" prefHeight="47.0" prefWidth="350.0">
+         <children>
+            <Button styleClass="btn-add" mnemonicParsing="false" onAction="#tambahTransaksi" text="Tambah Data" />
+            <Button styleClass="btn-edit" mnemonicParsing="false" onAction="#editTransaksi" text="Edit Data" />
+         </children>
+      </HBox>
+      <DatePicker fx:id="date" layoutX="25.0" layoutY="115.0" onAction="#dateListener" prefHeight="30.0" prefWidth="350.0" promptText="Tanggal" />
+    </children>
+</AnchorPane>

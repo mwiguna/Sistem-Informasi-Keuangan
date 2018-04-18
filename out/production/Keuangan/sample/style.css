@@ -1,0 +1,45 @@
+
+.label.titleLogin {
+    -fx-font-weight: bold;
+    -fx-background-color: #38D;
+}
+.btn-add {
+    -fx-text-fill: #fff;
+    -fx-background-color: #38D;
+    -fx-padding: 10px;
+}
+.btn-add:hover {
+    -fx-background-color: #26C;
+    -fx-cursor: hand;
+}
+.btn-edit {
+    -fx-text-fill: #fff;
+    -fx-background-color: #2C3;
+    -fx-padding: 10px;
+}
+.btn-edit:hover {
+    -fx-background-color: #1B2;
+    -fx-cursor: hand;
+}
+.btn-delete {
+     -fx-text-fill: #fff;
+     -fx-background-color: #D43;
+     -fx-padding: 10px;
+ }
+ .btn-delete:hover {
+     -fx-background-color: #C32;
+     -fx-cursor: hand;
+ }
+
+.column-header        { -fx-background-color: #38D }
+.column-header .label { -fx-text-fill: #fff }
+.table-view:focused .table-row-cell:filled:focused:selected { -fx-background-color: #38D }
+
+.table-row-cell:hover {
+    -fx-cursor: hand;
+    -fx-background-color: #DDD;
+}
+
+.table-column.center { -fx-alignment: CENTER }
+.table-column.right  { -fx-alignment: CENTER-RIGHT }
+
